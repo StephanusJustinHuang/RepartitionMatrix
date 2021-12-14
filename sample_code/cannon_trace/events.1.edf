@@ -1,0 +1,99 @@
+98 dynamic_trace_events
+# FunctionId Group Tag "Name Type" Parameters
+0 TAUEVENT 0 ".TAU <unknown event>" TriggerValue
+1 TAU_DEFAULT 0 ".TAU application " EntryExit
+2 MPI 0 "MPI_Init()  " EntryExit
+4 MPI 0 "MPI_Comm_rank()  " EntryExit
+5 MPI 0 "MPI_Comm_size()  " EntryExit
+6 MPI 0 "MPI_Barrier()  " EntryExit
+7 MPI 0 "MPI_Irecv()  " EntryExit
+8 MPI 0 "MPI_Isend()  " EntryExit
+10 MPI 0 "MPI_Wait()  " EntryExit
+14 MPI 0 "MPI_Reduce()  " EntryExit
+16 MPI 0 "MPI_Finalize()  " EntryExit
+3 TAUEVENT 0 "TauTraceClockOffsetStart" TriggerValue
+9 TAUEVENT 0 "Message size sent to all nodes" TriggerValue
+11 TAUEVENT 0 "Message size received from all nodes" TriggerValue
+12 TAUEVENT 0 "Message size received in wait" TriggerValue
+13 TAUEVENT 0 "Message size received in wait : MPI_Wait()  " TriggerValue
+15 TAUEVENT 0 "Message size for reduce" TriggerValue
+17 TAUEVENT 0 "TauTraceClockOffsetEnd" TriggerValue
+18 TAUEVENT 0 "CPU Cores | 4" TriggerValue
+19 TAUEVENT 0 "CPU MHz | 2000.000" TriggerValue
+20 TAUEVENT 0 "CPU Type | Intel(R) Xeon(R) CPU X5550 @ 2.67GHz" TriggerValue
+21 TAUEVENT 0 "CPU Vendor | GenuineIntel" TriggerValue
+22 TAUEVENT 0 "CWD | /users/bienz/cs491_21/sample_code" TriggerValue
+23 TAUEVENT 0 "Cache Size | 8192 KB" TriggerValue
+24 TAUEVENT 0 "Command Line | ./mpi_matmat_cannon 25" TriggerValue
+25 TAUEVENT 0 "Ending Timestamp | 1631051683958961" TriggerValue
+26 TAUEVENT 0 "Executable | /users/bienz/cs491_21/sample_code/mpi_matmat_cannon" TriggerValue
+27 TAUEVENT 0 "Hostname | wheeler-sn" TriggerValue
+28 TAUEVENT 0 "Local Time | 2021-09-07T15:54:43-06:00" TriggerValue
+29 TAUEVENT 0 "MPI Processor Name | wheeler-sn" TriggerValue
+30 TAUEVENT 0 "Memory Size | 49282492 kB" TriggerValue
+31 TAUEVENT 0 "Node Name | wheeler-sn" TriggerValue
+32 TAUEVENT 0 "OS Machine | x86_64" TriggerValue
+33 TAUEVENT 0 "OS Name | Linux" TriggerValue
+34 TAUEVENT 0 "OS Release | 3.10.0-1160.31.1.el7.x86_64" TriggerValue
+35 TAUEVENT 0 "OS Version | #1 SMP Thu Jun 10 13:32:12 UTC 2021" TriggerValue
+36 TAUEVENT 0 "Starting Timestamp | 1631051683944814" TriggerValue
+37 TAUEVENT 0 "TAU Architecture | default" TriggerValue
+38 TAUEVENT 0 "TAU Config |  -mpi" TriggerValue
+39 TAUEVENT 0 "TAU Makefile | /users/bienz/tau/x86_64/lib/Makefile.tau-mpi" TriggerValue
+40 TAUEVENT 0 "TAU Version | 2.29.1-git" TriggerValue
+41 TAUEVENT 0 "TAU_BFD_LOOKUP | on" TriggerValue
+42 TAUEVENT 0 "TAU_CALLPATH_DEPTH | 2" TriggerValue
+43 TAUEVENT 0 "TAU_CALLSITE_DEPTH | 1" TriggerValue
+44 TAUEVENT 0 "TAU_COMM_MATRIX | off" TriggerValue
+45 TAUEVENT 0 "TAU_CUDA_BINARY_EXE | " TriggerValue
+46 TAUEVENT 0 "TAU_CUPTI_API | runtime" TriggerValue
+47 TAUEVENT 0 "TAU_EBS_KEEP_UNRESOLVED_ADDR | off" TriggerValue
+48 TAUEVENT 0 "TAU_IBM_BG_HWP_COUNTERS | off" TriggerValue
+49 TAUEVENT 0 "TAU_MAX_THREADS | 1" TriggerValue
+50 TAUEVENT 0 "TAU_MEASURE_TAU | off" TriggerValue
+51 TAUEVENT 0 "TAU_MEMDBG_PROTECT_ABOVE | off" TriggerValue
+52 TAUEVENT 0 "TAU_MEMDBG_PROTECT_BELOW | off" TriggerValue
+53 TAUEVENT 0 "TAU_MEMDBG_PROTECT_FREE | off" TriggerValue
+54 TAUEVENT 0 "TAU_OPENMP_RUNTIME | on" TriggerValue
+55 TAUEVENT 0 "TAU_OPENMP_RUNTIME_EVENTS | on" TriggerValue
+56 TAUEVENT 0 "TAU_OPENMP_RUNTIME_STATES | off" TriggerValue
+57 TAUEVENT 0 "TAU_OUTPUT_CUDA_CSV | off" TriggerValue
+58 TAUEVENT 0 "TAU_PAPI_MULTIPLEXING | off" TriggerValue
+59 TAUEVENT 0 "TAU_PROFILE | off" TriggerValue
+60 TAUEVENT 0 "TAU_PROFILE_FORMAT | profile" TriggerValue
+61 TAUEVENT 0 "TAU_RECYCLE_THREADS | off" TriggerValue
+62 TAUEVENT 0 "TAU_REGION_ADDRESSES | off" TriggerValue
+63 TAUEVENT 0 "TAU_SAMPLING | off" TriggerValue
+64 TAUEVENT 0 "TAU_SHOW_MEMORY_FUNCTIONS | off" TriggerValue
+65 TAUEVENT 0 "TAU_SIGNALS_GDB | off" TriggerValue
+66 TAUEVENT 0 "TAU_SYNCHRONIZE_CLOCKS | on" TriggerValue
+67 TAUEVENT 0 "TAU_THROTTLE | on" TriggerValue
+68 TAUEVENT 0 "TAU_THROTTLE_NUMCALLS | 100000" TriggerValue
+69 TAUEVENT 0 "TAU_THROTTLE_PERCALL | 10" TriggerValue
+70 TAUEVENT 0 "TAU_TRACE | on" TriggerValue
+71 TAUEVENT 0 "TAU_TRACE_FORMAT | tau" TriggerValue
+72 TAUEVENT 0 "TAU_TRACK_CUDA_CDP | off" TriggerValue
+73 TAUEVENT 0 "TAU_TRACK_CUDA_ENV | off" TriggerValue
+74 TAUEVENT 0 "TAU_TRACK_CUDA_INSTRUCTIONS | " TriggerValue
+75 TAUEVENT 0 "TAU_TRACK_CUDA_SASS | off" TriggerValue
+76 TAUEVENT 0 "TAU_TRACK_HEADROOM | off" TriggerValue
+77 TAUEVENT 0 "TAU_TRACK_HEAP | off" TriggerValue
+78 TAUEVENT 0 "TAU_TRACK_IO_PARAMS | off" TriggerValue
+79 TAUEVENT 0 "TAU_TRACK_MEMORY_FOOTPRINT | off" TriggerValue
+80 TAUEVENT 0 "TAU_TRACK_MEMORY_LEAKS | off" TriggerValue
+81 TAUEVENT 0 "TAU_TRACK_MESSAGE | on" TriggerValue
+82 TAUEVENT 0 "TAU_TRACK_SIGNALS | off" TriggerValue
+83 TAUEVENT 0 "TAU_TRACK_UNIFIED_MEMORY | off" TriggerValue
+84 TAUEVENT 0 "Timestamp | 1631051683944989" TriggerValue
+85 TAUEVENT 0 "UTC Time | 2021-09-07T21:54:43Z" TriggerValue
+86 TAUEVENT 0 "pid | 9637" TriggerValue
+87 TAUEVENT 0 "tid | 9637" TriggerValue
+88 TAUEVENT 0 "username | bienz" TriggerValue
+60000 TRACER 0 "EV_INIT" none
+60001 TRACER 0 "FLUSH" EntryExit
+60003 TRACER 0 "FLUSH_CLOSE" none
+60004 TRACER 0 "FLUSH_INITM" none
+60005 TRACER 0 "WALL_CLOCK" none
+60006 TRACER 0 "CONT_EVENT" none
+60007 TAU_MESSAGE -7 "MESSAGE_SEND" par
+60008 TAU_MESSAGE -8 "MESSAGE_RECV" par
